@@ -1,0 +1,41 @@
+body {
+  background-image: url("rsz_stock.jpg");
+  color: black;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  text-align: center;
+}
+.form {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.textbox {
+  margin-bottom: 10px;
+  width: 105%;
+}
+.field {
+  color: #000000;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  width: 91.9%;
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.button {
+  display: block;
+  border: none;
+  background: #a09f9d;
+  color: #ffffff;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button:hover {
+  background: #4b4843;
+}
