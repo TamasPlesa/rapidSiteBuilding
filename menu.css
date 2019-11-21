@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  font-size: 25px;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1 /4;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1 / 4;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1 / 4;
+}
+.four {
+  grid-column: 1;
+  grid-row: 4 / 7;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4 / 7;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4 / 7;
+}
+.body {
+  background-image: url("rsz_stock.jpg");
+}
